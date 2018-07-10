@@ -1,0 +1,23 @@
+{
+  "name": "vex-cli",
+  "version": "0.0.1",
+  "description": "generate vue+express template ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "vex-cli": "./index.js"
+  },
+  "author": "tonokim@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "inquirer": "^6.0.0",
+    "ora": "^2.1.0"
+  }
+}
